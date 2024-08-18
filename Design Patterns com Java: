@@ -1,0 +1,50 @@
+@@ -0,0 +1,10 @@
+<? xml versão = " 1.0 " codificação = " UTF-8 " ?>
+< caminho de classe >
+	< classpathentry  kind = " con "  path = " org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-16 " >
+		< atributos >
+			< nome do atributo  = " módulo " valor = " verdadeiro " /> 
+		</ atributos >
+	</ classpathentry >
+	< classpathentry  tipo = " origem "  caminho = " origem " />
+	< classpathentry  kind = " saída "  caminho = " bin " />
+</ classpath >
+ 17 alterações: 17 adições e 0 exclusões17 
+.projeto
+Número da linha do arquivo original	Número da linha de diferença	Mudança de linha diferencial
+@@ -0,0 +1,17 @@
+<? xml versão = " 1.0 " codificação = " UTF-8 " ?>
+< projectDescription >
+	< nome >lab-padroes-projeto-java</ nome >
+	< comentário ></ comentário >
+	< projetos >
+	</ projetos >
+	< buildSpec >
+		< buildCommand >
+			< nome >org.eclipse.jdt.core.javabuilder</ nome >
+			< argumentos >
+			</ argumentos >
+		</ buildCommand >
+	</ buildSpec >
+	< naturezas >
+		< natureza >org.eclipse.jdt.core.javanature</ natureza >
+	</ naturezas >
+</ projectDescription >
+ 14 mudanças: 14 adições e 0 exclusões14 
+.configurações/org.eclipse.jdt.core.prefs
+Número da linha do arquivo original	Número da linha de diferença	Mudança de linha diferencial
+@@ -0,0 +1,14 @@
+eclipse.preferências.versão =1
+org.eclipse.jdt.core.compiler.codegen.inlineJsrBytecode =habilitado
+org.eclipse.jdt.core.compiler.codegen.targetPlatform =16
+org.eclipse.jdt.core.compiler.codegen.unusedLocal =preservar
+org.eclipse.jdt.core.compiler.compliance =16
+org.eclipse.jdt.core.compiler.debug.lineNumber = gerar
+org.eclipse.jdt.core.compiler.debug.localVariable = gerar
+org.eclipse.jdt.core.compiler.debug.sourceFile = gerar
+org.eclipse.jdt.core.compiler.problem.assertIdentifier = erro
+org.eclipse.jdt.core.compiler.problem.enablePreviewFeatures =desabilitado
+org.eclipse.jdt.core.compiler.problem.enumIdentifier = erro
+org.eclipse.jdt.core.compiler.problem.reportPreviewFeatures =aviso
+org.eclipse.jdt.core.compiler.release =habilitado
+org.eclipse.jdt.core.compiler.fonte =16
